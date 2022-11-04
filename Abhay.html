@@ -15,9 +15,6 @@
             font-family: 'Ubuntu', sans-serif;
             background-color: rgb(163, 189, 240);
         }
-        .cprimary{
-            color: blueviolet;
-        }
         
         .container{
             font-size: large;
@@ -27,9 +24,15 @@
             padding: 10px 10px 80px 10px;
             border-radius: 5px;
             background-color: rgb(239, 246, 199);
+            
+        }
+        .heading{
             text-align: center;
         }
-        
+        .input-group-text{
+            padding: 3px 5px;
+            margin: 3px 3px;
+        }
     </style>
 </head>
 
@@ -38,44 +41,37 @@
         <h2 class="heading">
             Application for Abhay Gang
         </h2>
-        <div>
-            Name: <input type="text" name="myName" id="name">
+        <div class="">
+            <span class="input-group-text" id="basic-addon1">Name</span>
+            <input type="text" class="form-control" placeholder="Your Name" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon2">Location</span>
+            <input type="text" class="form-control" placeholder="Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          </div>
+          
+          <div class="input-group mb-3">
+            <label for="basic-url" class="input-group-text">Role</label>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+          </div>
+          
+          <div class="input-group mb-3">
+            <span class="input-group-text"></span>
+            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+          </div>
+          
+          <div class="input-group">
+            <span class="input-group-text">Previous Achievements</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+          <div class="form-floating mb-3">
+              <label for="floatingInput" class="input-group-text">Email address</label>
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          </div>
         </div>
-        <br>
-        <div>
-            Role: <input type="text" name="myRole">
-        </div>
-        <br>
-        <div>
-            Email: <input type="email" name="myEmail">
-        </div>
-
-        <br>
-        <div>
-            Date Of birth: <input type="date" name="myDate">
-        </div>
-        <br>
-        <div>
-            Bonus: <input type="number" name="myBonus">
-        </div>
-        <br>
-        <div>
-            Are you eligible?: <input type="checkbox" name="myEligibility" checked>
-        </div>
-        <br>
-        <div>
-            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
-            Other <input type="radio" name="myGender">
-        </div>
-
-        <br>
-        <div>
-            Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
-        </div>
-
     </div>
-
-    <img src="/images/gang_members.jpg" alt="" id="image">
+    <!-- <img src="/images/gang_members.jpg" alt="" id="image"> -->
 </body>
 
 </html>
