@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Abhay.css">
+    <style>
+        body{
+            font-family: 'Ubuntu', sans-serif;
+            background-color: rgb(163, 189, 240);
+        }
+        .cprimary{
+            color: blueviolet;
+        }
+        
+        .container{
+            font-size: large;
+            border: 2px green solid;
+            border-radius: 5px;
+            margin: 20px 400px;
+            padding: 10px 10px 80px 10px;
+            border-radius: 5px;
+            background-color: rgb(239, 246, 199);
+            text-align: center;
+        }   
+
+        #image{
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="heading">
+            Application for Abhay Gang
+        </h2>
+        <div>
+            Name: <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+
+        <br>
+        <div>
+            Date Of birth: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+
+    </div>
+
+    <img src="/images/gang_members.jpg" alt="" id="image">
+</body>
+
+</html>
