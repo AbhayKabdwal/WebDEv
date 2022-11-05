@@ -1,0 +1,21 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(163, 189, 240);
+}
+
+.container{
+    font-size: large;
+    border: 2px green solid;
+    border-radius: 5px;
+    margin: 20px 400px;
+    padding: 10px 10px 80px 10px;
+    border-radius: 5px;
+    background-color: rgb(239, 246, 199);       
+}
+.heading{
+    text-align: center;
+}
+.input-group-text{
+    padding: 3px 5px;
+    margin: 3px 3px;
+}
