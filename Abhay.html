@@ -8,47 +8,46 @@
     <title>Docs</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Abhay.css">
 
 </head>
 
 <body>
-    <div class="container">
-        <h2 class="heading">
-            Application for Abhay Gang
-        </h2>
-        <div class="">
-            <span class="input-group-text" id="basic-addon1">Name</span>
-            <input type="text" class="form-control" placeholder="Your Name" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon2">Location</span>
-            <input type="text" class="form-control" placeholder="Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
-          </div>
-          
-          <div class="input-group mb-3">
-            <label for="basic-url" class="input-group-text">Role</label>
-            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-          </div>
-          
-          <div class="input-group mb-3">
-            <span class="input-group-text"></span>
-            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-          </div>
-          
-          <div class="input-group">
-            <span class="input-group-text">Previous Achievements</span>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
-          </div>
-          <div class="form-floating mb-3">
-              <label for="floatingInput" class="input-group-text">Email address</label>
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-          </div>
-        </div>
-    </div>
-    <img src="/images/gang_members.jpg" alt="" id="image"> 
-</body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#"> Home</a></li>
+      <li><a href="#"> About us</a></li>
+      <li><a href="#"> Services</a></li>
+      <li><a href="#"> Contact us</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <form >
+      <div class="form-group">
+        <input type="text" class="name" placeholder="Your Name">
 
+      </div>
+      <div class="form-group">
+        <input type="number" class="phnum" placeholder="Your Phone Number">
+
+      </div>
+      <div class="form-group">
+        <input type="text" class="locality" placeholder="Your Locality">
+
+      </div>
+      <div class="form-group">
+        <textarea name="about" id="aboutuser" cols="30" rows="10" placeholder="About yourself"></textarea>
+
+      </div>
+      <div class="form-group">
+        Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+        Other <input type="radio" name="myGender">
+    </div>
+      <button class="btn">Submit</button>
+    </form>
+  </div>
+</body>
 </html>
